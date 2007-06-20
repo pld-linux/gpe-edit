@@ -1,5 +1,5 @@
-#
 Summary:	GPE editor
+Summary(pl.UTF-8):	Edytor GPE
 Name:		gpe-edit
 Version:	0.40
 Release:	1
@@ -7,14 +7,17 @@ License:	GPL
 Group:		Applications/Communications
 Source0:	http://gpe.linuxtogo.org/download/source/%{name}-%{version}.tar.bz2
 # Source0-md5:	26bca78fb1619de3a36b6b242997339b
-URL:		http://gpe.linuxtogo.org
+URL:		http://gpe.linuxtogo.org/
 BuildRequires:	gtk+2-devel >= 2:2.10.7
 BuildRequires:	libgpewidget-devel
 Requires:	gpe-icons
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-GPE text editor, for embedded devices
+GPE text editor, for embedded devices.
+
+%description -l pl.UTF-8
+Edytor tekstu GPE dla urządzeń wbudowanych.
 
 %prep
 %setup -q
