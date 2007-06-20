@@ -1,0 +1,128 @@
+# Polish translation for gpe-edit.
+# Copyright (C) 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gpe-edit package.
+# Jakub Bogusz <qboosh@pld-linux.org>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gpe-edit 0.40\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-06-20 22:51+0200\n"
+"PO-Revision-Date: 2007-06-20 22:52+0200\n"
+"Last-Translator: Jakub Bogusz <qboosh@pld-linux.org>\n"
+"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gpe-edit.desktop.in.in.h:1
+msgid "GPE Text Editor"
+msgstr "Edytor tekstu GPE"
+
+#: ../gpe-edit.desktop.in.in.h:2
+msgid "Text Editor"
+msgstr "Edytor tekstu"
+
+#: ../main.c:78
+msgid "Help not (or incorrectly) installed. Or no helpviewer application registered."
+msgstr "Nie znaleziono zainstalowanej pomocy. Albo brak aplikacji do jej oglądania."
+
+#: ../main.c:99
+msgid "Untitled"
+msgstr "Nienazwany"
+
+#: ../main.c:140
+msgid "Current file is modified, save?"
+msgstr "Bieżący plik został zmodyfikowany, zapisać go?"
+
+#: ../main.c:140 ../main.c:367
+msgid "Question"
+msgstr "Pytanie"
+
+#: ../main.c:271
+msgid "Open File ..."
+msgstr "Otworz plik..."
+
+#: ../main.c:322
+msgid "Save as..."
+msgstr "Zapisz jako..."
+
+#: ../main.c:367
+msgid "Save current file before exiting?"
+msgstr "Zapisać bieżący plik przed wyjściem?"
+
+#: ../main.c:368
+msgid "Don't save"
+msgstr "Nie zapisuj"
+
+#: ../main.c:433
+msgid "Text not found"
+msgstr "Nie znaleziono tekstu"
+
+#: ../main.c:473
+msgid "Unable to replace text"
+msgstr "Nie udało się zamienić tekstu"
+
+#: ../main.c:486
+msgid "Search for: "
+msgstr "Szukaj: "
+
+#: ../main.c:489 ../main.c:546
+msgid "Find"
+msgstr "Szukaj"
+
+#: ../main.c:538
+msgid "Search for:"
+msgstr "Szukaj:"
+
+#: ../main.c:540
+msgid "Replace with:"
+msgstr "Zastąp:"
+
+#: ../main.c:545
+msgid "Replace"
+msgstr "Zastąp"
+
+#: ../main.c:671
+msgid "File editing field, additional functions are available by tap&hold or right click."
+msgstr "Pole edycji pliku, dodatkowe funkcje są dostępne przez tap&hold lub pod prawym przyciskiem."
+
+#: ../main.c:678
+msgid "New document"
+msgstr "Nowy dokument"
+
+#: ../main.c:683
+msgid "Open file"
+msgstr "Otwórz plik"
+
+#: ../main.c:688
+msgid "Save current file"
+msgstr "Zapisz bieżący plik"
+
+#: ../main.c:693
+msgid "Save current file as"
+msgstr "Zapisz bieżący plik jako"
+
+#: ../main.c:704
+msgid "Search text for a string"
+msgstr "Szukaj łańcucha znaków w tekście"
+
+#: ../main.c:710
+msgid "Replace a string"
+msgstr "Zastąp łańcuch znaków"
+
+#: ../main.c:725
+msgid "Copy selected, paste is possible by tap&hold"
+msgstr "Zaznaczono tekst, można go wkleić przez tap&hold"
+
+#: ../main.c:735
+msgid "Paste from clipboard"
+msgstr "Wklej ze schowka"
+
+#: ../main.c:743
+msgid "Get help"
+msgstr "Pomoc"
+
+#: ../main.c:751
+msgid "Exit gpe-edit"
+msgstr "Zakończ działanie gpe-edita"
