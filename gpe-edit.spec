@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Edytor GPE
 Name:		gpe-edit
 Version:	0.40
 Release:	1
-License:	GPL
+License:	GPL v2+
 Group:		Applications/Communications
 Source0:	http://gpe.linuxtogo.org/download/source/%{name}-%{version}.tar.bz2
 # Source0-md5:	26bca78fb1619de3a36b6b242997339b
@@ -53,7 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc doc/gpe-edit.html
+%doc ChangeLog doc/gpe-edit.html
 %attr(755,root,root) %{_bindir}/gpe-edit
 %{_sysconfdir}/mime-handlers/gpe-edit.mime
 %{_datadir}/application-registry/gpe-edit.applications
