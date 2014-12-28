@@ -11,7 +11,7 @@ Source1:	%{name}.pl.po
 URL:		http://gpe.linuxtogo.org/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+2-devel >= 2:2.10.7
 BuildRequires:	intltool >= 0.23
 BuildRequires:	libgpewidget-devel
